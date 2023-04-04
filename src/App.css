@@ -2,15 +2,13 @@
   text-align: center;
 }
 
+.font-link {
+  font-family: 'Sen', sans-serif;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 .App-header {
@@ -28,10 +26,212 @@
   color: #61dafb;
 }
 
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.mynavbar {
+  list-style-type: none;
+  /* display: flex; */
+  background-color: skyblue;
+  height: 90px;
+  text-align: right;
+  /* text-align-last: right; */
+  text-shadow: 0 0 black;
+  font-size: x-large;
+}
+
+.mynavbar>li {
+  display: inline;
+  margin-right: 30px;
+  margin-top: 50px;
+
+}
+
+.navText {
+  color: crimson;
+  text-decoration: none;
+  justify-content: right;
+  margin-left: 30px;
+}
+
+.serachbar {
+  position: absolute;
+  margin-left: 400px;
+  margin-top: 10px;
+
+}
+
+#pricetag {
+  background-color: lightcyan;
+  pointer-events: none;
+  color: revert;
+}
+.btnSubmit{
+background-color: aquamarine;
+}
+
+.serachInput {
+  border-color: brown;
+  border: darkred;
+  border-style: double;
+  font-size: large;
+  margin-left: 300px;
+  position: relative;
+}
+
+#serachbutton {
+  margin-left: 5px;
+  align-items: center;
+  appearance: none;
+  background-color: #fff;
+  border-radius: 24px;
+  border-style: none;
+  font-size: large;
+
+}
+
+.formdiv {
+  width: 50%;
+  height: 30px
+}
+
+.container {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 600px 600px 600px;
+  padding: 0%;
+  margin: 10px;
+  
+  gap: 15px;
+  margin-top: 100px;
+
+
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.adminpanel {
+  /* position: relative; */
+  margin-left: 700px;
+  /* justify-items: self-start; */
+}
+
+#adminInput {
+  padding: 5px;
+  width: 500px;
+  margin: 10px;
+  border-color: chartreuse;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.mynavbar {
+  list-style-type: none;
+  /* display: flex; */
+  background-color: skyblue;
+  height: 90px;
+  text-align: right;
+  margin-bottom: 0;
+
+}
+
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  appearance: none;
+  border-radius: .375rem;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out
+}
+
+.navText {
+  color: crimson;
+  text-decoration: none;
+  justify-content: right;
+}
+
+
+
+.bookingheader {
+  text-align: center;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.header {
+  background-color: skyblue;
+  height: 200px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+
+
+.atmcard {
+  /* background-color: brown; */
+  position: relative;
+  margin-top: 100px;
+  width: 450px;
+  margin-left: 650px;
+
+}
+
+.atmbutton {
+  background-color: azure;
+  border-radius: 5px;
+  margin-left: 120px;
+  margin-top: 100px;
+  font-size: larger;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
   to {
     transform: rotate(360deg);
   }

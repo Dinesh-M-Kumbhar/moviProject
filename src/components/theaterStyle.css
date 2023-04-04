@@ -1,0 +1,94 @@
+#seat {
+    /* background-color: darkorchid; */
+    /* background-color: green; */
+    font-size: larger;
+    width: 60px;
+    text-align: center;
+    border-style: groove;
+
+}
+
+.screen {
+    background-color: cadetblue;
+    position: 'relative';
+    width: 500px;
+    margin-left: 750px;
+    margin-top: 40px;
+    text-align: center;
+    color: white;
+}
+
+#row1,
+#row2,
+#row3,
+#row4 {
+    display: flex;
+    grid-column-gap: 100px;
+    margin-left: 500px;
+}
+
+#row1>button,
+#row2>button,
+#row3>button,
+#row4>button {
+    font-size: larger;
+    width: 60px;
+    text-align: center;
+    border-style: groove;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+
+}
+
+#theaterH {
+    text-align: center;
+
+}
+
+#theater {
+    text-align: center;
+
+}
+
+/* Define styles for the red color */
+.blue-color {
+    background: blue;
+}
+
+/* Define styles for the yellow color */
+.orange-color {
+    background: rgb(223, 216, 203);
+}
+
+/* Define styles for the button */
+.my-btn {
+    padding: 10px 150px;
+    color: #fff;
+    border: none;
+}
+
+.finaldiv {
+    /* background-color: rgb(220, 235, 230);
+    width: 400px;
+    margin-left: 300px;
+    margin-top: 100px; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 600px 600px 600px;
+}
+
+.finaldiv>h6 {
+    /* margin-left: 20px; */
+    padding: 20px;
+    color: firebrick;
+
+    
+}
+.ticketcard > label{
+    font-size: initial;
+    color: red;
+}
+.ticketcard{
+    text-align: center;
+    /* margin-top: 50px; */
+}

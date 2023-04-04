@@ -1,0 +1,96 @@
+{
+  "userData": [
+    {
+      "firstname": "Dinesh",
+      "lastname": "Kumbhar",
+      "email": "dkumbhar123",
+      "password": "123",
+      "address": "sdsd",
+      "city": "gre",
+      "id": 1
+    },
+    {
+      "firstname": "dinesh",
+      "lastname": "patil",
+      "email": "dpatil@gmail.com",
+      "password": "123",
+      "address": "fv",
+      "city": "vr",
+      "id": 2
+    },
+    {
+      "firstname": "madhav",
+      "lastname": "abc",
+      "email": "madhav@gmail.com",
+      "password": "123",
+      "address": "gsd",
+      "city": "sgsd",
+      "id": 3
+    },
+    {
+      "email": "sdf",
+      "password": "dfs",
+      "id": 12
+    },
+    {
+      "email": "wfw",
+      "password": "ewfw",
+      "id": 13
+    },
+    {
+      "email": "wfw",
+      "password": "ewfw",
+      "firstname": "fa",
+      "lastname": "efe",
+      "id": 14
+    },
+    {
+      "firstname": "p",
+      "lastname": "p",
+      "email": "p@gmail.com",
+      "password": "123",
+      "address": "dqk",
+      "city": "erwe",
+      "id": 15
+    },
+    {
+      "firstname": "pa",
+      "lastname": "pa",
+      "email": "pa@gmail.com",
+      "password": "123",
+      "address": "aaha",
+      "city": "ahaha",
+      "id": 16
+    },
+    {
+      "firstname": "Dinesh",
+      "lastname": "kumbhar",
+      "email": "dkumbhar@gmail.com",
+      "password": "123",
+      "address": "Kolhapur",
+      "city": "Kolhapur ",
+      "id": 17
+    }
+  ],
+  "adminData": [
+    {
+      "email": "dinesh",
+      "password": "123",
+      "id": 1
+    }
+  ],
+  "moviesData": [
+    {
+      "title": "Tumbad",
+      "posterSrc": "https://i.ytimg.com/vi/RXGcFkszVJg/maxresdefault.jpg",
+      "text": "It belongs to horror movie ",
+      "id": 2
+    },
+    {
+      "id": 3
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
